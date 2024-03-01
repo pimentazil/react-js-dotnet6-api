@@ -1,0 +1,77 @@
+.new-book-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-book-container section.form {
+    width: 100%;
+    max-width: 350px;
+    margin-right: 30px;
+}
+
+.new-book-container .content {
+    width: 100%;
+    padding: 96px;
+    background: #0f1114;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-book-container .content section {
+    width: 100%;
+    max-width: 350px;
+}
+
+.new-book-container .content section h1 {
+    margin: 64px 0 32px;
+    font-size: 32px;
+    color: white;
+}
+
+.new-book-container .content section p {
+    font-size: 18px;
+    color: #aaaab2;
+    line-height: 32px;
+    margin-bottom: 5%;
+}
+
+.new-book-container .content form {
+    width: 220%;
+    max-width: 850px;
+    
+
+}
+
+.new-book-container .content form input {
+    margin-top: 8px;
+    margin-left: 44%;
+}
+
+.new-book-container .content form .date {
+    width: 32%;
+}
+
+.back-link {
+    color: #149eca;
+}
+
+.buttonn {
+    width: 32%;
+    padding: 13px 85px;
+    background-color: #149eca;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 44%;
+}
